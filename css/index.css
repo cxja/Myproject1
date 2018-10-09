@@ -449,35 +449,24 @@ header .top_r .ver{
 }
 
 .nav1 > ul > li {
-  float: left;
-  position: relative;
-  height: 40px;
+    float: left;
+    position: relative;
+    height: 80px;
+    z-index: 4;
 }
 
 
-.Nav .nav_1{
-  width: 742px;
-  position: absolute;
-  left: -330px;
-  top: 60px;
-  z-index: 3;
-  background-color: #fff;
-  padding-left: 34px;
-  box-shadow: 0 0 1px 1px rgb(0, 0, 0, 0.1);
-}
 
 .one{
   margin-right:8px;
 }
-.Nav .sjx{
-  top: 49px;
-}
+
 
 .nav_1 {
   width: 742px;
   position: absolute;
   left: -330px;
-  top: 46px;
+  top: 62px;
   z-index: 3;
   background-color: #fff;
   padding-left: 34px;
@@ -532,13 +521,14 @@ header .top_r .ver{
 
 .sjx {
   display: block;
-  width: 20px;
-  height: 10px;
-  background: url(../img/xtb.png) no-repeat -2px -128px;
-  position: absolute;
-  top: 35px;
-  left: 35%;
-  background-color: #fff;
+     width: 16px;
+    height: 10px;
+    background: url(../img/xtb.png) no-repeat -5px -128px;
+    position: absolute;
+    top: 52px;
+    left: 40%;
+    background-color: #fff;
+    z-index: 9;
 }
 
 .hbody nav a:hover {
@@ -607,6 +597,8 @@ header .top_r .ver{
   height: 420px;
   position: relative;
   right: 20%;
+  border-top: 1px solid #ececec;
+
 }
 
 #pic li {

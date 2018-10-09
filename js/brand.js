@@ -58,3 +58,6 @@ $(function(){
  
 });   
 
+
+$("#circle1").circleChart();        
+$("#circle2").circleChart1();     

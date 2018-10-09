@@ -67,31 +67,29 @@ $('#right').click(function(){
 
 //nav1导航栏的动态显示效果
 $('.li1').children('a').css('color','#b4a078')
-$('.nav1 ul').eq(0).children('li').mouseenter(function(){
+$('.nav1 ul').eq(0).children('li').hover(function(){
    if($(this).children('span'));
   $(this).children('a').css('color','#b4a078');
   $(this).siblings().children('a').css('color','#333');
-  $(this).children('a').addClass('current1').siblings().removeClass('current1')
   $('.li1').children('a').css('color','#b4a078')
+  $(this).children('a').addClass('current1').siblings().removeClass('current1')
   $(this).children('span').addClass('sjx').siblings().removeClass('sjx')
-  $(this).children('div').show()
-});
-
-$('.nav1 ul').eq(0).children('li').mouseleave(function(){
+  $(this).children('div').fadeIn();
+},function(){
   $(this).children('a').removeClass('current1')
   $(this).children('span').removeClass('sjx')
   $(this).children('div').fadeOut()
   $(this).children('a').css('color','#333');
-  $('.li1').children('a').css('color','#b4a078')
+$('.li1').children('a').css('color','#b4a078')
 
-});
-
+})
 
 $('.yx1_2 ul li').hover(function(){
-	$(this).children('img').eq(1).show();
+  $(this).children('img').eq(1).show();
 },function(){
-		$(this).children('img').eq(1).hide()
+    $(this).children('img').eq(1).hide()
 })
+
 
 
 //nav2导航栏的动态效果

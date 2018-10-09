@@ -2,7 +2,7 @@
 * @Author: admin
 * @Date:   2018-09-27 14:19:48
 * @Last Modified by:   admin
-* @Last Modified time: 2018-09-29 11:32:03
+* @Last Modified time: 2018-10-08 14:43:30
 */
 *{
 	padding: 0;
@@ -118,6 +118,22 @@ section>div{
 	padding: 30px 19px;
 	position: relative;
 	
+}
+
+.nav_1{
+	width: 742px;
+  position: absolute;
+  left: -330px;
+  top: 46px;
+  z-index: 3;
+  background-color: #fff;
+  padding-left: 34px;
+  box-shadow: 0 0 1px 1px rgb(0, 0, 0, 0.1);
+  display: none;
+}
+
+.sjx{
+	top: 36px;
 }
 
 .Nav2{
