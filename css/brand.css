@@ -6,10 +6,7 @@ body{
 	height: 990px;  /*可视区域为固定宽度，width:100%表示可视区域为一屏*/
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 4bc22c0f9dd18460c25bbcf2033b79aca1679dcf
 @media(max-width:1280px){
   body {
     height: 800px;
@@ -581,7 +578,6 @@ position: relative;
     top: 8px;
     display: block;
 }
-<<<<<<< HEAD
 
 .counter-demo-2,.counter-demo-3{
   position: absolute;
@@ -600,5 +596,3 @@ position: relative;
   text-align: center;
   line-height: 270px;
 }
-=======
->>>>>>> 4bc22c0f9dd18460c25bbcf2033b79aca1679dcf
