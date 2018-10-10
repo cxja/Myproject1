@@ -51,12 +51,7 @@ $(window).mousewheel(function(e,d){
 	
 })
 
-//圆圈
-$(function(){
- 
-  $('.circlechart').circlechart();
- 
-});   
+//圆圈 
 
 
 $(function(){
