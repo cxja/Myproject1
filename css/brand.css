@@ -6,13 +6,13 @@ body{
 	height: 990px;  /*可视区域为固定宽度，width:100%表示可视区域为一屏*/
 }
 
-@media(min-width:1280px){
+@media(max-width:1280px){
   body {
     height: 800px;
   }
 }
 
-@media(min-width:1440px){
+@media(max-width:1440px){
   body{
     height: 990px;
   }
