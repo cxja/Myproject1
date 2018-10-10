@@ -59,5 +59,40 @@ $(function(){
 });   
 
 
-$("#circle1").circleChart();        
-$("#circle2").circleChart1();     
+$(function(){
+	$("#circle1").circleChart({
+		size: 260,
+		color: "#DDBA74",
+		backgroundColor: "rgba(255,255,255,.2)",
+		value: -95,
+		speed:5000,
+		counterclockwise:true,
+		widthRatio: 0.03,
+		startAngle:25,
+		lineCap: "butt",
+		
+	});
+
+	$("#circle2").circleChart({
+		size: 260,
+		color: "#DDBA74",
+		backgroundColor: "rgba(255,255,255,.2)",
+		value: -98,
+		speed:5000,
+		counterclockwise:true,
+		widthRatio: 0.03,
+		startAngle:25,
+		lineCap: "butt",
+		
+	});
+});
+
+$('.counter-demo-2').lemCounter({
+	value_to: 5,
+	value_from:99
+	});						
+		
+	$('.counter-demo-3').lemCounter({
+		value_to: 1,
+		value_from:99
+		});	
